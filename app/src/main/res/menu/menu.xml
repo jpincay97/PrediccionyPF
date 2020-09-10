@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_inicio"
+            android:icon="@drawable/iconinicio"
+            android:title="Inicio"/>
+        <item
+            android:id="@+id/menu_prediccion"
+            android:icon="@drawable/iconprediccion"
+            android:title="Predicciones"/>
+        <item
+            android:id="@+id/menu_patron"
+            android:icon="@drawable/iconpatron"
+            android:title="Patrones Frecuentes"/>
+        <item
+            android:id="@+id/menu_comparacion"
+            android:icon="@drawable/iconcomparacion"
+            android:title="Comparaciones"/>
+    </group>
+</menu>
